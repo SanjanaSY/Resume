@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Javascript</title>
+</head>
+<body>
+
+	<h1 id="Innoo">Display Date By Clicking the button below</h1>
+
+	<img src="1.jpg" width="40%" id="image">
+
+	<br><br>
+	<button onclick="document.getElementById('Innoo').innerHTML= Date()">Click Me!</button>
+
+	<button onclick="document.getElementById('Innoo').style.color= 'red'">Change font color to red</button>
+
+	<button onclick="document.getElementById('Innoo').style.color= 'purple'">Change font color to purple</button>
+
+	<button onclick="document.getElementById('Innoo').style.fontSize= '50px'">Font larger</button>
+
+	<button onclick="document.getElementById('Innoo').style.fontSize= '25px'">Font medium</button>
+
+	<button onclick="document.getElementById('Innoo').style.fontSize= '10px'">Font larger</button>
+
+	<button onclick="document.getElementById('Innoo').style.display= 'none'">Message hidden</button>
+
+	<button onclick="document.getElementById('Innoo').style.display= 'block'">Display message</button>
+
+	<button onclick="document.getElementById('image').style.borderRadius= '50%'">image Round</button>
+	
+	<button onclick="document.getElementById('image').style.borderRadius= '15%'">image Corner</button>
+
+	<br><br>
+
+	<button onclick="document.getElementById('image').src='1.jpg'">Universe</button>
+
+	<button onclick="document.getElementById('image').src='e.webp'">Earth</button>
+
+	<button onclick="document.getElementById('image').src='m.jpg'">Moon</button>
+
+	<button onclick="document.getElementById('image').src='s.jpg'">Satellite</button> 
+
+	<button onclick="document.getElementById('image').src='bulboff.jpg'">Bulb off</button>
+
+	<button onclick="document.getElementById('image').src='bulb.jpg'">Bulb on</button>
+
+	<button onclick="document.getElementById('image').style.display='none'">Hide image</button>
+
+	<button onclick="document.getElementById('image').style.display='block'">show image</button>
+
+	<br> <br>
+
+	<h1 id="one">What's the time?</h1>
+	<button onclick="document.getElementById('one').innerHTML= 'Its 12Am'">Submit</button>
+
+
+    <h1 id="two">Which is your fav fruit?</h1>
+	<button onclick="document.getElementById('two').innerHTML= 'Mango'">Submit</button>
+
+	<button onclick="document.getElementById('two').style.color='orange'">font color</button>
+
+	<h1 id="three">Which is your fav color?</h1>
+	<button onclick="document.getElementById('three').innerHTML= 'Purple'">Submit</button>
+
+	<button onclick="document.getElementById('three').style.color='Purple'">font color</button>
+
+	<h1 id="four">What is your college name?</h1>
+	<button onclick="document.getElementById('four').innerHTML= 'Chetana college'">Submit</button>
+
+     <button onclick="document.getElementById('four').style.color='blue'">font color</button>
+</body>
+</html>
